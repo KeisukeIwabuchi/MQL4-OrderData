@@ -1,32 +1,32 @@
 # MQL4-OrderData
-ポジションの構造体
+Structure of order.
 
 
-| Name        | Description      |
-|:------------|:-----------------|
-| ticket      | チケット番号      |
-| symbol      | 銘柄             |
-| type        | 取引種別         |
-| lots        | 取引数量         |
-| open_time   | エントリー時刻    |
-| open_price  | エントリー価格    |
-| stoploss    | 逆指値価格       |
-| takeprofit  | 指値価格         |
-| close_time  | 決済時刻         |
-| close_price | 決済価格         |
-| expiration  | 有効期限         |
-| commission  | 手数料           |
-| swap        | スワップ損益     |
-| profit      | 損益            |
-| comment     | コメント        |
-| magic       | マジックナンバー |
+| Name        | Description                |
+|:------------|:---------------------------|
+| ticket      | Ticket number              |
+| symbol      | Symbol name                |
+| type        | Order operation type       |
+| lots        | Amount of lots             |
+| open_time   | Open time                  |
+| open_price  | Open price                 |
+| stoploss    | Stop loss value            |
+| takeprofit  | Take profit value          |
+| close_time  | Close time                 |
+| close_price | Close price                |
+| expiration  | Expiration date            |
+| commission  | Calculated commission      |
+| swap        | Swap value                 |
+| profit      | Profit                     |
+| comment     | Comment                    |
+| magic       | Identifying (magic) number |
 
 
 ## Install
-1. OrderData.mqhをダウンロード
-2. データフォルダを開き、/MQL4/Includes/mql4_modules/OrderData/OrderData.mqhとして保存
+1. Download OrderData.mqh
+2. Save the file to /MQL4/Includes/mql4_modules/OrderData/OrderData.mqh
 
 
 ## Usage
-OrderData.mqhをincludeで読み込んで下さい。  
-構造体OrderDataが使用可能になります。  
+Include OrderData.mqh.  
+You can use OrderData structure. 
