@@ -24,7 +24,7 @@ Structure of order.
 
 ## Install
 1. Download OrderData.mqh
-2. Save the file to /MQL4/Includes/mql4_modules/OrderData/OrderData.mqh
+2. Save the file to /MQL4/Include/mql4_modules/OrderData/OrderData.mqh
 
 
 ## Usage
